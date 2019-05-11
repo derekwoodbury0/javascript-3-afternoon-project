@@ -70,7 +70,12 @@ function totalPopulation(obj) {
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+function ingredients(obj) {
+  var {carb, fat, protein} = obj
+  var newArr = []
+  newArr.push(carb, fat, protein)
+  return newArr
+}
 
 
 
@@ -88,9 +93,7 @@ function totalPopulation(obj) {
   Find the smallest number of the three and return that number.
 */
 
-//Code Here
-
-
+//Code here
 
 ////////// PROBLEM 6 //////////
 
